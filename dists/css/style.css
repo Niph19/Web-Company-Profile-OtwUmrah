@@ -1,3 +1,6 @@
+.main-container {
+    background-color: #f5f4f1;
+}
 .navbar {
     font-family: "Poppins", sans-serif;
 }
@@ -31,6 +34,10 @@
 }
 .fa-solid {
     color: #9b8c76;
+}
+.scrolling-active {
+    background-color: rgba(25, 17, 5, 0.8);
+    transition: 0.5s;
 }
 .hero {
     position: relative;
@@ -75,7 +82,6 @@
     font-family: "Poppins", sans-serif;
 }
 .tentang {
-    background-color: #f5f4f1;
     padding-top: 60px;
 }
 #img-col {
@@ -110,4 +116,44 @@
     color: #917a5a;
     width: 40px;
     height: 40px;
+}
+#card-col {
+    width: fit-content;
+}
+.paket-title h2 {
+    font-size: 35px;
+    font-family: "Playfair Display", serif;
+}
+#paket-btn {
+    background-color: #917a5a;
+    color: #ffffff;
+}
+#paket-btn i {
+    color: #ffffff;
+}
+.card-title {
+    color: #32220b;
+    font-size: 25px;
+}
+.card-text {
+    color: #474747;
+    font-size: 18px;
+}
+#paket-card-hemat:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #F2E9D8;
+    transition: 0.3s;
+    scale: 1.04;
+}
+#paket-card-silver:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #E4DED5;
+    transition: 0.3s;
+    scale: 1.04;
+}
+#paket-card-vip:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #F8ECD3;
+    transition: 0.3s;
+    scale: 1.04;
 }
