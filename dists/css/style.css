@@ -176,3 +176,6 @@
 .tour-leader .col {
     width: fit-content;
 }
+.tour-leader .card-body h2 {
+    color: #32220b;
+}
